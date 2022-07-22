@@ -10,13 +10,13 @@
     var input = document.querySelector("input"); // pra eu chamar a tag do HTML eu uso o querySelector e chamo o nome como string
     input.focus();
 
-    var bts = ["Xingilingui1", "Xingilingui2", "Xingilingui3", "Xingilingui4", "Xingilingui5"];
+    var bts = ["Jin", "SUGA", "J-Hope", "Jimin", "Jungkook","V"];
 
     function btsCS() {
         var achou = false;
         for (var i = 0; i < bts.length; i++) {
             if (input.value == bts[i]) {
-                alert("OMG! VC É FÃ DOS XINGLING TBM!!!");
+                alert("OMG! VC É FÃ DO BTS TBM!!!");
                 achou = true;
                 break;
             }
