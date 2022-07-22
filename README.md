@@ -1,3 +1,13 @@
 # Praticando-
 
-Neste repositório eu  colocarei todo tipo de código, tentarei distinguir no nome pra facilitar uma busca de outros devs.
+Logica de programação 1 do curso da Alura:
+
+Função
+while
+for
+Array
+condição sem repetir
+Contador
+Advinhar
+Repetir
+Variaveis
