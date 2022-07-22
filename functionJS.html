@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<body>
+<meta charset="UTF-8">
+<script>
+/*
+    function pulaLinha(){
+        document.write("<br><br>");
+        document.write("<hr>");
+    } 
+    function exibeDiferença(){
+    var hugo = 24;
+    var mel = 8;
+    var resultado = (hugo - mel);
+    document.write("Nossa diferença de idade é: " + resultado);
+    pulaLinha()
+    document.write("Nossa diferença de idade é: " + resultado);
+    pulaLinha
+    }
+    exibeDiferença();
+    */
+</script>
+<script>
+    /*
+    pulaLinha();
+    function pulaLinha(){
+        document.write("<br><br>")
+        document.write("<hr>");
+    }    
+    function exibeGeracoes() {
+    var descoberta = 1500;
+    var anoAtual = 2022;
+    var geracoes = ((anoAtual - descoberta)/28);
+    document.write("A diferença entre a descoberta e o ano atual é: " + (anoAtual - descoberta));
+    pulaLinha()
+    document.write("O número de gerações que o Brasil tem é: " + Math.round(geracoes));
+    pulaLinha()
+    }
+    exibeGeracoes();
+    var nome = "Hugo";
+    var peso = 70; 
+    var altura = 1.84;
+    var imc = peso/(altura*altura)
+    document.write(nome + " seu IMC é: " + imc);
+    pulaLinha()
+    nome = "Andre";
+    peso = 82;
+    altura = 1.80;
+    imc = peso/(altura*altura)
+    document.write( nome + " seu IMC é: " + imc);
+    pulaLinha()
+    nome = "Amanda";
+    peso = 47;
+    altura = 1.58;
+    imc = peso/(altura*altura);
+    document.write(nome + " seu IMC é: " + imc);
+    pulaLinha()
+
+    nome = "Elaine";
+    peso = prompt("Informe seu peso Elaine");
+    altura = prompt("Informe sua altura Elaine");
+    imc = peso/(altura*altura);
+    document.write(nome + " seu IMC é: " + imc);
+
+    function calculaImc(peso, altura) {
+        pulaLinha()
+        return peso/(altura*altura)
+    }
+    var imcHugo = calculaImc(70, 1.84)
+    document.write("Hugo, seu IMC é: " + imcHugo)
+
+    var imcAmanda = calculaImc(46, 1.57)
+    document.write("Amanda, seu IMC é: " + imcAmanda);
+
+    var imcMarieta = calculaImc( 50, 1.64)
+    document.write("Marieta, seu IMC é: " + imcMarieta);
+    document.write("Marieta seu IMC é: " + calculaImc(50, 1.64));
+
+
+    pulaLinha()
+    function geraCodigo(letra, numero1, numero2) {
+        return "GH1022";
+    }
+    var codigo = geraCodigo("A", 20, 30);
+document.write(codigo); // mostrou GH1022
+*/
+
+function exibeImc(peso, altura){
+    return peso/(altura * altura);
+}
+
+var nome = prompt("Digite seu nome");
+var peso = prompt("Digite seu peso");
+var altura = prompt("Digite sua altura");
+
+document.write(nome + ", seu IMC é: " + exibeImc(peso, altura));
+
+</script>
+
+</body>
+</html>

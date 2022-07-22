@@ -31,72 +31,46 @@
         document.write(nome + " tem: " + (ano - nascimentoAmanda));
         document.write("<br>");
 
-
-
-        var media = ((ano - nascimentoElaine) + (ano - nascimentoAndre) + (ano - nascimentoHugo) + (ano - nascimentoGiovanna) + (ano - nascimentoAmanda))/5;
-
-        
-
+        var media = (((ano - nascimentoElaine) + (ano - nascimentoAndre) + (ano - nascimentoHugo) + (ano - nascimentoGiovanna) + (ano - nascimentoAmanda))/5);
         document.write("<br>");
         document.write("A média entre as idades é: " + Math.round(media));
         document.write("<br>");
         document.write("<br>");
 
 
+        var port = 10
+        var mat = 8
+        var ciencia = 10
+        var hist = 10
+        var geo = 10
+        var fil = 10
+        var ingles = 10        
+        media = ((port + mat + ciencia + hist + fil + geo + ingles)/7);        
+        document.write("A média da sua filha Giovanna foi: " + Math.round(media));        
+        document.write("<br>");
+        document.write("<br>");
+        
+        document.write("A Giovanna nasceu em: " + nascimentoGiovanna );        
+        document.write("<br>");
+        document.write("Hugo nasceu em: " + nascimentoHugo);
+        document.write("<br>");
+        document.write("<br>");    
+        
         var jorge = 1948;
         var silvia = 1953;
-        document.write("A diferença entre a idade dos seus pais é:" + (silvia - jorge)) ;
+        document.write("A diferença entre a idade dos seus pais é: " + (silvia - jorge)) ;
         document.write("<br>");
         document.write("<br>");
-
-
-var port = 10
-var mat = 8
-var ciencia = 10
-var hist = 10
-var geo = 10
-var fil = 10
-var ingles = 10
-
-media = (port + mat + ciencia + hist + fil + geo + ingles)/7;
-
-document.write("A média da sua filha Giovanna foi: " + Math.round(media));
-
-
-document.write("<br>");
-document.write("<br>");
-
-document.write("A Giovanna nasceu em: " + nascimentoGiovanna );
-
-document.write("<br>");
-
-
-
-
-
-
-
-
-
-
-        document.write("<br>");
-        ano = 1998;
-        document.write("Hugo nasceu em: " + ano);
-        document.write("<br>");
-        document.write("<br>");
-        document.write("<br>");
-        document.write("<br>");
-        document.write("<br>");
-
     </script>
     
 <script>
     var n = 3;
     document.write("O resultado da fórmula é : " + n * (10 / 20)  );
     document.write("<br>");
+    document.write("<br>");
+
 
 </script>
-
 <script>
     document.write("8 vezes 1 é " + 8 * 1+ "<br>");
     document.write("8 vezes 2 é " + 8 * 2+ "<br>");
@@ -109,6 +83,47 @@ document.write("<br>");
     document.write("8 vezes 9 é " + 8 * 9+ "<br>");
     document.write("8 vezes 10 é " +8 * 10+ "<br>");
     document.write("<br>");
+</script>
+<script>
+    var linda = 12;
+    var perola = 13;
+    var guaraciara = 15
+    media = ((perola + guaraciara + linda)/3);
+    document.write("A media da idade das suas filhas é: " + Math.round(media));
+    document.write("<br>");
+    document.write("<br>");
+</script>
+<script>
+    document.write("Resultado: " + Math.round(10/3));
+    document.write("<br>");
+    document.write("<br>");
+</script>
+<script>
+    var IDADE1 = 10;
+    var IDADE2 = "20"; // ESSA AQ É O PROBLEMA
+    var IDADE3 = 12;
+
+    document.write("A média das idades é <br>");
+    document.write( (IDADE1 + IDADE2 + IDADE3) / 3);
+    document.write("<br>");
+    document.write("<br>");
+</script>
+<h3>Álcool ou Gasolina?</h3>
+
+<script>
+    var tanqueGasolina = 40;
+    var caminhoComGasolina = 480;
+    var consumoDeGasolina = caminhoComGasolina / tanqueGasolina;
+
+    var tanqueAlcool = 40;
+    var caminhoComAlcool = 300;
+    var consumoDeAlcool = caminhoComAlcool / tanqueAlcool;
+
+
+    document.write("O gasto de gasolina por kilometro foi: " + consumoDeGasolina );
+    document.write("<br>");    
+    document.write("<br>");
+    document.write("O gasto de alcool por kilometro foi: " + consumoDeAlcool);
 
 </script>
 </body>
