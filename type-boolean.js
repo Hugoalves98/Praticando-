@@ -14,3 +14,7 @@ console.log(numero === numerou);
 const texto = "em 1500 o Brasil foi descoberto. ";
 const text2 = "Mas em 1498 o navegador, Vasco da Gama chega a Calicute, India."
 console.log(texto + text2);
+
+const idade = 2;
+const dezAnosDepois = "12";
+console.log(idade + dezAnosDepois);
